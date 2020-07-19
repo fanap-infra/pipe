@@ -1,0 +1,11 @@
+.idea
+.vscode
+
+__debug_bin
+/vendor
+*coverage.out
+sshuttle.pid
+api
+swagger.yml
+
+go.sum
