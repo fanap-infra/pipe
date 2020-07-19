@@ -1,4 +1,4 @@
-module github.com/fanap-infrag/pipe
+module github.com/fanap-infra/pipe
 
 go 1.14
 
