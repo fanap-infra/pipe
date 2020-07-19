@@ -1,5 +1,5 @@
 PROJECT_NAME := "pipe"
-PKG := "behnama/pipe"
+PKG := "github.com/fanap-infra/pipe"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
 GOPATH := ${HOME}/go

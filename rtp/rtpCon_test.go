@@ -1,12 +1,13 @@
 package rtp
 
 import (
-	"behnama/pipe/conn"
-	"behnama/pipe/rtsp"
 	"bufio"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/fanap-infra/pipe/conn"
+	"github.com/fanap-infra/pipe/rtsp"
 
 	pionRtp "github.com/pion/rtp"
 

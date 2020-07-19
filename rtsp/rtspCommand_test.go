@@ -1,10 +1,11 @@
 package rtsp
 
 import (
-	"behnama/pipe/conn"
 	"bufio"
 	"testing"
 	"time"
+
+	"github.com/fanap-infra/pipe/conn"
 
 	"github.com/stretchr/testify/suite"
 )
