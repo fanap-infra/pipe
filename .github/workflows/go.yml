@@ -16,7 +16,8 @@ jobs:
     - name: Set up Go 1.x
       uses: actions/setup-go@v2
       with:
-        go-version: ^1.13
+        go-version: ^1.14
+        redis-version: ^6.0
       id: go
 
     - name: Check out code into the Go module directory
@@ -32,7 +33,6 @@ jobs:
 
     - name: Test
       run: |
-        sudo apt-get install -y redis-server
         go get github.com/onsi/ginkgo/ginkgo
         go get github.com/onsi/gomega/...
         ginkgo ./...
