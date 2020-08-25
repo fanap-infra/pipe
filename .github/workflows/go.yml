@@ -32,6 +32,8 @@ jobs:
         fi
 
     - name: Test
+      env: 
+        REDIS_ADDRESS: "127.0.0.1:6379"
       run: |
         go get github.com/onsi/ginkgo/ginkgo
         go get github.com/onsi/gomega/...
